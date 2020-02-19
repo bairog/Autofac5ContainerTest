@@ -1,7 +1,12 @@
 {
   "components": [
     {
-      "type": "Implementations.ImplementationN, Implementations"
+      "type": "Implementations.ImplementationN, Implementations",
+      "services": [
+        {
+          "type": "Autofac.Example.Calculator.Api.IOperation"
+        }
+      ]
     }
   ]
 }
